@@ -88,9 +88,9 @@ const projects = [
 
  
 {
-    id: 'smartretail',
+    id: 'smart railway admin',
     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-    folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
+    folders: ['smart railway admin'], // src/assets/project/smartretail/ folder එකේ images
     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
     features: [
@@ -111,9 +111,9 @@ const projects = [
 
 
   {
-    id: 'smartrwilway',
+    id: 'smart railway user',
     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-    folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
+    folders: ['smart railway user'], // src/assets/project/smartretail/ folder එකේ images
     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
     features: [
@@ -131,10 +131,11 @@ const projects = [
     liveLink: '',
     githubLink: '',
   },
+
    {
     id: 'moshop',
     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-    folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
+    folders: ['smart railway user'], // src/assets/project/smartretail/ folder එකේ images
     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
     features: [
