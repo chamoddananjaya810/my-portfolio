@@ -50,7 +50,7 @@ const skills = [
 
 // Project data - "folders" field එකට array එකක් දුන්නොත් ඒ folders ටිකේම images එකම carousel එකකට merge වෙනවා
 const projects = [
-   {
+    {
     id: 'aswanu-admin',
     title: 'Aswanu Admin (React Web & Management Panel)',
     folders: ['aswanu admin'], // src/assets/project/aswanu admin/ folder එකේ images (farmer/admin side)
@@ -84,9 +84,9 @@ const projects = [
     liveLink: '',
     githubLink: '',
   },
- 
+  
 
- 
+  
 {
     id: 'smart railway admin',
     title: 'Smart Railway Management System',
@@ -149,179 +149,6 @@ const projects = [
     liveLink: '',
     githubLink: '',
   },
-
-
-
-//   {
-//     id: 'e-commerse',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//     {
-//     id: 'clothshop',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//     {
-//     id: 'friutsshop',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//      {
-//     id: 'friutsshop',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//     {
-//     id: 'SmartTrade',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//   {
-//     id: 'QuickChat-app',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-//  {
-//     id: 'school_management_system',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-
-//    {
-//     id: 'ContactApp',
-//     title: 'SmartRetail (Cross-Platform POS & Repair Management System)',
-//     folders: ['smartretail'], // src/assets/project/smartretail/ folder එකේ images
-//     shortDesc: 'A cross-platform point-of-sale and repair management system with a robust backend built in Laravel, letting a shop run efficiently.',
-//     longDesc: 'SmartRetail was built for a client who needed a retail and repair-shop management system. Powered by a robust Laravel backend for secure data management and API handling, and built with Flutter for cross-platform support across Android, iOS, Windows, macOS, and Web, the app runs smoothly to manage store operations.',
-//     features: [
-//       'Robust backend architecture developed using Laravel for secure database management and API integration.',
-//       'Built with Flutter for true cross-platform support: Android, iOS, Windows, macOS, and Web.',
-//       'Runs efficiently with streamlined data synchronization.',
-//       'Role-based access control with four distinct user roles: Admin, Cashier, Repair, and Technician.',
-//       'Admin role with full access to manage users, inventory, pricing, and system settings.',
-//       'Cashier role to issue bills and process sales for items purchased from the shop.',
-//       'Repair role to log and manage incoming repair items such as mobile phones and laptops.',
-//       'Technician role to track, update, and complete assigned repair jobs.',
-//     ],
-//     vision: 'Designed to remove the barrier of expensive, multi-device retail setups. SmartRetail lets small shop owners run a complete point-of-sale and repair-tracking operation, making professional retail and repair-shop management accessible to businesses of any size.',
-//     tech: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
-//     liveLink: '',
-//     githubLink: '',
-//   },
-
 ];
 
 function ImageCarousel({ images, title }) {
@@ -348,7 +175,6 @@ function ImageCarousel({ images, title }) {
   }, [current, isFullscreen]);
 
   // Zoom toggle කරාම, හෝ image එක change වුනාම, scroll position එක top/left එකට reset කරනවා
-  // (මේකෙන් "image එක යටට යනවා" වගේ පේන bug එක fix වෙනවා)
   useEffect(() => {
     if (lightboxRef.current) {
       lightboxRef.current.scrollTop = 0;
@@ -357,7 +183,6 @@ function ImageCarousel({ images, title }) {
   }, [isZoomed, current]);
 
   // Fullscreen open වෙලා තියෙද්දී browser pinch/Ctrl+scroll zoom එක block කරනවා
-  // (React onWheel prop එක passive නිසා preventDefault() ඇත්තටම වැඩ නොකරන්න පුළුවන්, ඒ නිසා මෙතන native listener එකක් add කරනවා)
   useEffect(() => {
     if (!isFullscreen) return;
     const blockZoom = (e) => {
@@ -381,11 +206,13 @@ function ImageCarousel({ images, title }) {
 
   return (
     <div className="relative">
-      <div className="flex items-center justify-center w-full h-[400px] sm:h-[520px] bg-black">
+      {/* Carousel Image container with smooth fade transition animation */}
+      <div className="flex items-center justify-center w-full h-[400px] sm:h-[520px] bg-black overflow-hidden">
         <img
+          key={current} // Key change වෙනකොට fade-in / slide animation එක trigger වෙනවා
           src={images[current]}
           alt={`${title} screenshot ${current + 1}`}
-          className="object-contain w-full h-full select-none cursor-zoom-in"
+          className="object-contain w-full h-full p-2 select-none cursor-zoom-in transition-all duration-500 ease-out transform hover:scale-[1.02]"
           onClick={() => setIsFullscreen(true)}
           onContextMenu={preventCopy}
           draggable={false}
@@ -396,7 +223,7 @@ function ImageCarousel({ images, title }) {
         <>
           <button
             onClick={goPrev}
-            className="absolute flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-9 h-9 left-3 top-1/2 bg-black/50 hover:bg-black/70"
+            className="absolute flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-9 h-9 left-3 top-1/2 bg-black/50 hover:bg-black/70 hover:scale-110 active:scale-95"
             aria-label="Previous image"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -405,7 +232,7 @@ function ImageCarousel({ images, title }) {
           </button>
           <button
             onClick={goNext}
-            className="absolute flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-9 h-9 right-3 top-1/2 bg-black/50 hover:bg-black/70"
+            className="absolute flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-9 h-9 right-3 top-1/2 bg-black/50 hover:bg-black/70 hover:scale-110 active:scale-95"
             aria-label="Next image"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -418,7 +245,7 @@ function ImageCarousel({ images, title }) {
               <button
                 key={i}
                 onClick={() => setCurrent(i)}
-                className={`h-2 rounded-full transition-all ${i === current ? 'w-6 bg-indigo-400' : 'w-2 bg-white/50 hover:bg-white/80'}`}
+                className={`h-2 rounded-full transition-all duration-300 ${i === current ? 'w-6 bg-indigo-400' : 'w-2 bg-white/50 hover:bg-white/80'}`}
                 aria-label={`Go to image ${i + 1}`}
               />
             ))}
@@ -430,17 +257,17 @@ function ImageCarousel({ images, title }) {
         </>
       )}
 
-      {/* Fullscreen Lightbox - image click කරාම මුළු screen එකේම open වෙනවා, ආයෙත් click කළොත් zoom වෙනවා */}
+      {/* Fullscreen Lightbox with Zoom Scale Animation */}
       {isFullscreen && (
         <div
           ref={lightboxRef}
-          className={`fixed inset-0 z-[200] bg-black overflow-auto flex justify-center ${isZoomed ? 'items-start py-10' : 'items-center'}`}
+          className={`fixed inset-0 z-[200] bg-black/95 backdrop-blur-md overflow-auto flex justify-center animate-fadeIn ${isZoomed ? 'items-start py-10' : 'items-center'}`}
           style={{ touchAction: 'pan-x pan-y', overscrollBehavior: 'contain' }}
           onClick={() => setIsFullscreen(false)}
         >
           <button
             onClick={() => setIsFullscreen(false)}
-            className="fixed z-10 flex items-center justify-center w-10 h-10 text-white transition rounded-full top-4 right-4 bg-white/10 hover:bg-white/20"
+            className="fixed z-10 flex items-center justify-center w-10 h-10 text-white transition rounded-full top-4 right-4 bg-white/10 hover:bg-white/20 hover:scale-110 active:scale-95"
             aria-label="Close fullscreen"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -449,11 +276,10 @@ function ImageCarousel({ images, title }) {
           </button>
 
           {isZoomed ? (
-            // Zoomed in - image එක natural size එකට ළඟින්, scroll කරලා (drag/scroll) ඕන කොටස බලන්න පුළුවන්
             <img
               src={images[current]}
               alt={`${title} screenshot ${current + 1} fullscreen zoomed`}
-              className="select-none cursor-zoom-out"
+              className="transition-transform duration-300 transform scale-100 select-none cursor-zoom-out"
               style={{ width: 'auto', height: 'auto', maxWidth: 'none' }}
               onClick={(e) => { e.stopPropagation(); setIsZoomed(false); }}
               onContextMenu={preventCopy}
@@ -461,9 +287,10 @@ function ImageCarousel({ images, title }) {
             />
           ) : (
             <img
+              key={`fs-${current}`}
               src={images[current]}
               alt={`${title} screenshot ${current + 1} fullscreen`}
-              className="object-contain max-w-full max-h-full select-none cursor-zoom-in"
+              className="object-contain max-w-full max-h-full transition-all duration-300 transform scale-100 select-none cursor-zoom-in animate-zoomIn"
               onClick={(e) => { e.stopPropagation(); setIsZoomed(true); }}
               onContextMenu={preventCopy}
               draggable={false}
@@ -471,7 +298,7 @@ function ImageCarousel({ images, title }) {
           )}
 
           {!isZoomed && (
-            <div className="fixed px-3 py-1 text-xs text-white -translate-x-1/2 rounded-md bottom-6 left-1/2 bg-white/10">
+            <div className="fixed px-3 py-1 text-xs text-white -translate-x-1/2 rounded-md bottom-6 left-1/2 bg-white/10 animate-bounce">
               Tap image to zoom
             </div>
           )}
@@ -480,7 +307,7 @@ function ImageCarousel({ images, title }) {
             <>
               <button
                 onClick={(e) => { e.stopPropagation(); goPrev(); }}
-                className="fixed flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-11 h-11 left-4 top-1/2 bg-white/10 hover:bg-white/20"
+                className="fixed flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-11 h-11 left-4 top-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 active:scale-95"
                 aria-label="Previous image"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -489,7 +316,7 @@ function ImageCarousel({ images, title }) {
               </button>
               <button
                 onClick={(e) => { e.stopPropagation(); goNext(); }}
-                className="fixed flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-11 h-11 right-4 top-1/2 bg-white/10 hover:bg-white/20"
+                className="fixed flex items-center justify-center text-white transition -translate-y-1/2 rounded-full w-11 h-11 right-4 top-1/2 bg-white/10 hover:bg-white/20 hover:scale-110 active:scale-95"
                 aria-label="Next image"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -522,16 +349,17 @@ function ProjectModal({ project, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/75 backdrop-blur-md px-4 animate-fadeIn"
       onClick={onClose}
     >
+      {/* Modal Box with Scale & Pop-up Animation */}
       <div
-        className="relative w-full max-w-2xl overflow-hidden bg-gray-900 border border-gray-800 rounded-2xl max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-2xl overflow-hidden bg-gray-900 border border-gray-800 rounded-2xl max-h-[90vh] overflow-y-auto shadow-2xl animate-scaleUp"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
-          className="absolute z-10 flex items-center justify-center w-8 h-8 text-gray-300 transition rounded-full top-4 right-4 bg-gray-900/80 hover:bg-gray-800 hover:text-white"
+          className="absolute z-10 flex items-center justify-center w-8 h-8 text-gray-300 transition rounded-full top-4 right-4 bg-gray-900/80 hover:bg-gray-800 hover:text-white hover:scale-110 active:scale-95"
           aria-label="Close"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -559,12 +387,12 @@ function ProjectModal({ project, onClose }) {
           {(project.liveLink || project.githubLink) && (
             <div className="flex gap-4">
               {project.liveLink && (
-                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="px-5 py-2 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700">
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="px-5 py-2 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700 hover:scale-105 active:scale-95">
                   Live Demo
                 </a>
               )}
               {project.githubLink && (
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="px-5 py-2 font-medium text-gray-300 transition border border-gray-600 rounded-lg hover:border-indigo-400 hover:text-white">
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="px-5 py-2 font-medium text-gray-300 transition border border-gray-600 rounded-lg hover:border-indigo-400 hover:text-white hover:scale-105 active:scale-95">
                   View Code
                 </a>
               )}
@@ -586,7 +414,7 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="w-full px-6 pt-32 pb-20">
         <div className="flex flex-col items-center justify-center mx-auto text-center max-w-7xl">
-          <img src={profileImg} alt="Chamod Dhananjaya" className="object-cover mb-6 border-4 rounded-full shadow-lg w-36 h-36 sm:w-44 sm:h-44 border-indigo-500/50 shadow-indigo-500/20" />
+          <img src={profileImg} alt="Chamod Dhananjaya" className="object-cover mb-6 transition duration-500 border-4 rounded-full shadow-lg w-36 h-36 sm:w-44 sm:h-44 border-indigo-500/50 shadow-indigo-500/25 hover:scale-105" />
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-6xl">
             Hi, I'm <span className="text-indigo-400">Chamod Dhananjaya</span>
           </h1>
@@ -594,8 +422,8 @@ function App() {
             Software Engineering Undergraduate | Backend & Web Developer passionate about building robust applications.
           </p>
           <div className="flex space-x-4">
-            <a href="#projects" className="px-6 py-3 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700">View Projects</a>
-            <a href="#contact" className="px-6 py-3 font-medium text-gray-300 transition border border-gray-600 rounded-lg hover:border-indigo-400 hover:text-white">Contact Me</a>
+            <a href="#projects" className="px-6 py-3 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700 hover:scale-105 active:scale-95">View Projects</a>
+            <a href="#contact" className="px-6 py-3 font-medium text-gray-300 transition border border-gray-600 rounded-lg hover:border-indigo-400 hover:text-white hover:scale-105 active:scale-95">Contact Me</a>
           </div>
         </div>
       </section>
@@ -623,7 +451,7 @@ function App() {
               return (
                 <div
                   key={skill.label}
-                  className="flex flex-col items-center gap-2 p-4 transition duration-300 bg-gray-900 border border-gray-800 rounded-lg hover:border-indigo-500 hover:-translate-y-1 group"
+                  className="flex flex-col items-center gap-2 p-4 transition duration-300 bg-gray-900 border border-gray-800 rounded-lg hover:border-indigo-500 hover:-translate-y-1 hover:scale-105 group"
                 >
                   <Icon className={`w-8 h-8 ${skill.color} transition duration-300 group-hover:scale-110`} />
                   <span className="text-xs font-medium text-gray-200 sm:text-sm">{skill.label}</span>
@@ -634,7 +462,7 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section - image count automatic ව folder(s) එකෙන් load වෙනවා */}
+      {/* Projects Section */}
       <section id="projects" className="w-full px-6 py-20 border-t border-gray-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="mb-2 text-3xl font-bold text-center">Projects</h2>
@@ -642,19 +470,19 @@ function App() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             {projects.map((project) => {
               const images = getImagesForFolders(project.folders);
-              const coverImage = images[0]; // combined list එකේ පළමු image එක card cover එකට
+              const coverImage = images[0]; 
               return (
                 <button
                   key={project.id}
                   onClick={() => setSelectedProject(project)}
-                  className="overflow-hidden text-left transition bg-gray-900 border border-gray-800 rounded-xl hover:border-indigo-500/60 hover:-translate-y-1 group"
+                  className="overflow-hidden text-left transition duration-300 bg-gray-900 border border-gray-800 rounded-xl hover:border-indigo-500/60 hover:-translate-y-2 hover:shadow-2xl hover:shadow-indigo-500/10 group"
                 >
-                  <div className="h-48 overflow-hidden bg-gray-800">
+                  <div className="flex items-center justify-center h-48 overflow-hidden bg-gray-950">
                     {coverImage ? (
                       <img
                         src={coverImage}
                         alt={`${project.title} project screenshot`}
-                        className="object-cover w-full h-48 transition duration-300 select-none group-hover:scale-105"
+                        className="object-contain w-full h-full p-2 transition duration-500 select-none group-hover:scale-110"
                         onContextMenu={(e) => e.preventDefault()}
                         draggable={false}
                       />
@@ -665,7 +493,7 @@ function App() {
                     )}
                   </div>
                   <div className="p-6">
-                    <h3 className="mb-2 text-xl font-bold text-indigo-400">{project.title}</h3>
+                    <h3 className="mb-2 text-xl font-bold text-indigo-400 transition-colors group-hover:text-indigo-300">{project.title}</h3>
                     <p className="text-gray-300">{project.shortDesc}</p>
                     <span className="inline-block mt-4 text-sm font-medium text-indigo-400 group-hover:underline">
                       View Details →
@@ -683,7 +511,7 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <h2 className="mb-6 text-3xl font-bold">Get In Touch</h2>
           <p className="mb-6 text-gray-300">Feel free to reach out for collaborations or opportunities.</p>
-          <a href="mailto:chamoddhananjaya76@gmail.com" className="inline-block px-6 py-3 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700">chamoddhananjaya76@gmail.com</a>
+          <a href="mailto:chamoddhananjaya76@gmail.com" className="inline-block px-6 py-3 font-medium text-white transition bg-indigo-600 rounded-lg hover:bg-indigo-700 hover:scale-105 active:scale-95">chamoddhananjaya76@gmail.com</a>
         </div>
       </section>
 
